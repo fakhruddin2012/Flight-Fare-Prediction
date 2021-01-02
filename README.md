@@ -17,6 +17,9 @@
 ## Problem Statement:
 This is a Machine learning project. In this project I am trying to predict the fare of flights by training the dataset which contain data for one year. 
 
+![image](https://user-images.githubusercontent.com/55452866/103451991-b9eb4e00-4cf0-11eb-8f7c-c67f9aa80592.png)
+
+
 ## Approach:
 
 ## Data Preprocessing:
