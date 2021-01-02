@@ -30,5 +30,10 @@ This all the process i followed for test dataset as well and made a training and
 
 ## Feature Selection:
 
+Finding out the best feature which will contribute and have good relation with target variable. Following are some of the feature selection methods.
+(1) Heatmap
+
+(2) ExtraTreesRegressor
+
 
 
