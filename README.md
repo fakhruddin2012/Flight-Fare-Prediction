@@ -4,6 +4,7 @@
 * [Approach](#Approach)
  * [Data Preprocessing](#Data-Preprocessing)
  * [Feature Selection](#Feature-Selection)
+ * [Model Implementation](#Model Implementation)
 
 
 
@@ -39,6 +40,16 @@ Finding out the best feature which will contribute and have good relation with t
 (2) ExtraTreesRegressor
 
 ![image](https://user-images.githubusercontent.com/55452866/103451823-97583580-4cee-11eb-8942-c41911852280.png)
+
+## Model Implementation:
+
+I used Random Forest model to fit the dataset.Below are the metrics which i got
+
+MAE: 1172.5455945373583
+
+MSE: 4347276.1614450775
+
+RMSE: 2085.0122688955757
 
 
 
