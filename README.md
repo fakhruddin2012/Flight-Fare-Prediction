@@ -25,6 +25,7 @@ Here is the comparision graph of Airline vs the price.
 
 ![image](https://user-images.githubusercontent.com/55452866/103451742-98d52e00-4ced-11eb-92d6-da3f0da4088d.png)
 
+This all the process i followed for test dataset as well and made a training and test dataset to feed in the Machine learning algorithm.
 
 
 
