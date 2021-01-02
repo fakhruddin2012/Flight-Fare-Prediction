@@ -34,11 +34,13 @@ Finding out the best feature which will contribute and have good relation with t
 
 (1) Heatmap
 
+![image](https://user-images.githubusercontent.com/55452866/103451807-5eb85c00-4cee-11eb-9135-671e86b24491.png)
+
 (2) ExtraTreesRegressor
 
-![image](https://user-images.githubusercontent.com/55452866/103451807-5eb85c00-4cee-11eb-9135-671e86b24491.png)
+
                     
-                    ## Heatmap
+                   
 
 
 
