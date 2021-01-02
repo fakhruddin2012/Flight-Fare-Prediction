@@ -63,6 +63,14 @@ After hyperparameter tuning the best parameters which i got are as follows:
  'min_samples_leaf': 1,
  'max_features': 'auto',
  'max_depth': 20}
+ 
+ The metrics with these parameters are as:
+ 
+ MAE: 1165.606162629916
+ 
+MSE: 4062650.6911608884
+
+RMSE: 2015.6018186042818
 
 
 
