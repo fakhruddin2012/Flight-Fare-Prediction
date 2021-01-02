@@ -4,6 +4,10 @@
 * [Approach](#Approach)
  * [Data Preprocessing](#Data-Preprocessing)
  * [Feature Selection](#Feature-Selection)
+ * [Model Implementation](#Model-Implementation)
+ * [Hyperparameter Tuning](#Hyperparameter-Tuning)
+ * [Saving the Model](#Saving-the-Model)
+
 
 
 
@@ -12,6 +16,10 @@
 
 ## Problem Statement:
 This is a Machine learning project. In this project I am trying to predict the fare of flights by training the dataset which contain data for one year. 
+
+![image](https://user-images.githubusercontent.com/55452866/103452026-19495e00-4cf1-11eb-81c6-8edfe881c110.png)
+
+
 
 ## Approach:
 
@@ -39,6 +47,40 @@ Finding out the best feature which will contribute and have good relation with t
 (2) ExtraTreesRegressor
 
 ![image](https://user-images.githubusercontent.com/55452866/103451823-97583580-4cee-11eb-8942-c41911852280.png)
+
+## Model Implementation:
+
+I used Random Forest model to fit the dataset.Below are the metrics which i got
+
+MAE: 1172.5455945373583
+
+MSE: 4347276.1614450775
+
+RMSE: 2085.0122688955757
+
+The R2 square values which i got is 0.7983
+
+## Hyperparameter Tuning:
+After hyperparameter tuning the best parameters which i got are as follows:
+
+{'n_estimators': 700,
+ 'min_samples_split': 15,
+ 'min_samples_leaf': 1,
+ 'max_features': 'auto',
+ 'max_depth': 20}
+ 
+ The metrics with these parameters are as:
+ 
+ MAE: 1165.606162629916
+ 
+MSE: 4062650.6911608884
+
+RMSE: 2015.6018186042818
+
+The R2 square i got after hyperparameter tuning I am getting the same score as the previous one.
+
+## Saving the Model:
+I than saved the model with the help of pickle.
 
 
 
