@@ -72,6 +72,8 @@ MSE: 4062650.6911608884
 
 RMSE: 2015.6018186042818
 
+The R2 square i got after hyperparameter tuning is 0.8117.
+
 
 
                     
