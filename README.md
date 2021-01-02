@@ -5,6 +5,8 @@
  * [Data Preprocessing](#Data-Preprocessing)
  * [Feature Selection](#Feature-Selection)
  * [Model Implementation](#Model-Implementation)
+ * [Hyperparameter Tuning](#Hyperparameter-Tuning)
+
 
 
 
@@ -52,6 +54,15 @@ MSE: 4347276.1614450775
 RMSE: 2085.0122688955757
 
 The R2 square values which i got is 0.7983
+
+## Hyperparameter Tuning:
+After hyperparameter tuning the best parameters which i got are as follows:
+
+{'n_estimators': 700,
+ 'min_samples_split': 15,
+ 'min_samples_leaf': 1,
+ 'max_features': 'auto',
+ 'max_depth': 20}
 
 
 
