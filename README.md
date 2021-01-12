@@ -7,6 +7,7 @@
  * [Model Implementation](#Model-Implementation)
  * [Hyperparameter Tuning](#Hyperparameter-Tuning)
  * [Saving the Model](#Saving-the-Model)
+ * [Deploying the model](#Deploying-the-model)
 
 
 
