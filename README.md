@@ -83,6 +83,10 @@ The R2 square i got after hyperparameter tuning I am getting the same score as t
 ## Saving the Model:
 I than saved the model with the help of pickle.
 
+## Deploying the model:
+I have used Flask frame work for deploying the machine learning model with the help of Heroku platform.You can predict the flight fares with the help of below heroku link.
+https://flightfareprediction950.herokuapp.com/
+
 
 
                     
